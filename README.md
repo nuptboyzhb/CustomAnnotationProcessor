@@ -90,9 +90,9 @@
 ----------
 ####Jar包的导出
 Java项目的目录如下：<br>
-![process_dir.png](process_dir.png)<br>
+![process_dir.png](process_dir.PNG)<br>
 需要在javax.annotaion.processing.Processor文件中指定对应的处理入口，比如：<br>
-![process_conf](process_conf.png)<br>
+![process_conf](process_conf.PNG)<br>
 我们使用Eclipse将其导出成custom-annotation-process.1.0.jar包。导出之后的Jar包，反编译之后的结构为：<br>
 ![process_jar.PNG](process_jar.PNG)<br>
 
@@ -117,7 +117,7 @@ Java项目的目录如下：<br>
 	javac -cp custom-annotation-process.1.0.jar @javas.txt
 </code>
 首先将Java文件的路径写入到javas.txt文件中，然后使用javac编译文件。在cmd中打印结果如下：<br>
-![javac_cmd.png](javac_cmd.png)
+![javac_cmd.png](javac_cmd.PNG)
 
 当然，除了直接使用javac命令之外，在Eclipse、Maven中也可以配置。在此，不在赘述。
 
